@@ -1,38 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
 .App {
-  text-align: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+    padding: 1rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App .app-container {
+    border-radius: 24px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #4f46e5;
+    padding: 3rem 1rem;
+    margin-top: 4rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App .app-container p {
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+}
+.App .app-container .info {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 0.6rem;
+}
+.App .app-container .info p {
+    font-size: 0.8rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App .app-container .info .underline {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.App .app-container .modal {
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    width: 90%;
+    background-color: #f0fdf4;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.App .app-container .modal p {
+    font-size: 1rem;
+    color: #4ade80;
+    text-decoration: underline;
+    font-weight: 200;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App .app-container .default {
+    background: #f0fdf4;
+}
+.App .app-container .default p {
+    color: #4ade80;
+}
+.App .app-container .success {
+    background: #86efac;
+}
+.App .app-container .success p {
+    color: #3f3f46;
+}
+
+.App .app-container .request {
+    background: #93c5fd;
+}
+.App .app-container .request p {
+    color: #3f3f46;
+}
+
+.App .app-container .remove {
+    background: #f87171;
+}
+.App .app-container .remove p {
+    color: #fafafa;
+}
+.App .app-container .edit {
+    background: #f0fdf4;
+}
+.App .app-container .edit p {
+    color: #3f3f46;
+}
+.App .app-container .removeAll {
+    background: #ef4444;
+}
+.App .app-container .removeAll p {
+    color: #fafafa;
+}
+
+.App .app-container .inputForm {
+    border-radius: 1rem;
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #eeeff4;
+}
+
+.App .app-container .inputForm .inputForm-container {
+    display: flex;
+    justify-content: space-between;
+}
+.App .app-container .inputForm .inputForm-container input {
+    border: none;
+    padding: 0.4rem 1rem;
+    border-radius: 0.6rem;
+    width: 70%;
+}
+
+.App .app-container .inputForm .inputForm-container button {
+    font-size: 0.75rem;
+    border: none;
+    background-color: #1e40af;
+    color: #fafafa;
+    padding: 0.6rem 0.4rem;
+    width: 25%;
+    border-radius: 0.6rem;
+    cursor: pointer;
+}
+
+.App .app-container .list {
+    border-radius: 1rem;
+    margin: 3rem auto;
+    height: auto;
+    width: 90%;
+    background-color: #eeeff4;
+    padding: 1rem 0;
+}
+
+.App .app-container .list .list-container {
+    padding: 1rem 0;
+}
+
+.App .app-container .list .task {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    margin: 1rem;
+    padding: 0.7rem 1rem;
+    border-radius: 0.6rem;
+}
+.App .app-container .list .task .task-text {
+    font-size: 1rem;
+    color: #71717a;
+    width: 70%;
+    text-align: left;
+}
+.App .app-container .list .task .finished {
+    text-decoration: line-through;
+}
+
+.App .app-container .list .task .buttons {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
+.App .app-container .list .task .buttons button {
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.App .app-container footer p {
+    font-size: 0.8rem;
+}
+.App .app-container footer p span {
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 450px) {
+    .App {
+        height: 100vh;
+        width: 100vw;
+        background-color: #fff;
+        padding: 1rem;
+    }
+
+    .App .app-container {
+        border-radius: 24px;
+        width: 30%;
+        margin: 0 auto;
+        background-color: #4f46e5;
+        padding: 3rem 1rem;
+        margin-top: 4rem;
+    }
 }
