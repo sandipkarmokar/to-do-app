@@ -76,11 +76,11 @@ const App = () => {
                 <footer>
                     <p>
                         Build with ❤️ using React JS, by{' '}
-                        <span className="underline">Sandip Karmokar</span>
+                        <span className="underline">Sandip Karmokar</span>{' '}
                     </p>
 
                     <a
-                        href="https://github.com/sandipkarmokar/to-do-app"
+                        href="https://github.com/sandipkarmokar/weather-app"
                         rel="noreferrer"
                         target="_blank"
                     >

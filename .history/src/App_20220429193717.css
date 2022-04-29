@@ -171,17 +171,13 @@
     background-color: #fff;
     cursor: pointer;
 }
-
+.App .app-container footer {
+    align-items: center;
+}
 .App .app-container footer p {
     font-size: 0.8rem;
 }
-.App .app-container footer a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #eeeff4;
-    font-size: 0.8rem;
-}
+
 @media only screen and (min-width: 450px) {
     .App {
         height: 100vh;

@@ -76,16 +76,9 @@ const App = () => {
                 <footer>
                     <p>
                         Build with ❤️ using React JS, by{' '}
-                        <span className="underline">Sandip Karmokar</span>
+                        <span className="underline">Sandip Karmokar</span>{' '}
                     </p>
-
-                    <a
-                        href="https://github.com/sandipkarmokar/to-do-app"
-                        rel="noreferrer"
-                        target="_blank"
-                    >
-                        source code
-                    </a>
+                    <a href="https://github.com/sandipkarmokar/to-do-app" rel="noreferrer" target="_blank></a>
                 </footer>
             </div>
         </div>

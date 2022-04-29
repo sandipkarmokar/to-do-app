@@ -76,7 +76,7 @@ const App = () => {
                 <footer>
                     <p>
                         Build with ❤️ using React JS, by{' '}
-                        <span className="underline">Sandip Karmokar</span>
+                        <span className="underline">Sandip Karmokar</span>{' '}
                     </p>
 
                     <a

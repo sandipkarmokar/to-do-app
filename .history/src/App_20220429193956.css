@@ -171,7 +171,10 @@
     background-color: #fff;
     cursor: pointer;
 }
-
+/* .App .app-container footer {
+    align-items: center;
+    
+} */
 .App .app-container footer p {
     font-size: 0.8rem;
 }

@@ -171,7 +171,13 @@
     background-color: #fff;
     cursor: pointer;
 }
-
+/* .App .app-container footer {
+    align-items: center;
+    color: #eeeff4;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 0.8rem;
+} */
 .App .app-container footer p {
     font-size: 0.8rem;
 }
@@ -179,8 +185,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #eeeff4;
-    font-size: 0.8rem;
+    color: ;
 }
 @media only screen and (min-width: 450px) {
     .App {
